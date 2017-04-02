@@ -1,6 +1,6 @@
 # priyanshi09.github.io
 
-This is my personal website: which is hosted as 
+This is my personal website: which is also hosted as 
 
 http://www.priyanshi09.com 
 
