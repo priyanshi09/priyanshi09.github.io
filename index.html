@@ -1,53 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Priyanshi Singh</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link href="css/dev.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
-    <script src="js/background.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Priyanshi Singh </title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myStyles.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/myScript.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
-	<div id="home">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav class=" no-border-radius navbar navbar-default navbar-purple ">
+                <div class="headerstyling container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class=" anchor-color anchor-navbar navbar-brand" href="#"><h1 class="name-styling">Priyanshi Singh</h1></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="anchor-color" href="#about">About</a></li>
+                            <li><a class="anchor-color" href="#resume">Resume</a></li>
+                            <li><a class="anchor-color" href="#projects">Project</a></li>
+                            <li><a class="anchor-color" href="#awards">Awards</a></li>
+							<li><a class="anchor-color" href="#skills">Skills</a></li>
+                            <li><a class="anchor-color" href="#contactinfo">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <!-- NavBar End -->
+    <!-- Homepage -->
+    <!-- <div class=" headerstyling container-fluid my-image-div" style="background-image: url(images/priya3.jpg)"> -->
+    
+        
+        <div class=" headerstyling container-fluid my-image-div">
+            <div class="text-center content">
+                <h2 class="margin heading-margin1">Hi, I am Priyanshi, a budding Data Scientist by profession and a Data enthusiast by nature.<br>I'm an inquisitive, curious, incurable optimist and a go getter.<br>As they say , data will confess to anything if we just know how to ask , I am on my way to learning just that with each progressing day. My insatiable curiosity and love for problem solving makes me the data miner I am .<br>Talk data to me !</h2>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="images/pri3.jpg" class="myImageclass1 img-class img-rounded1"></img>
+                    </div>
+                    <div class="col-sm-5">
+                        <div style="font-size: 18px; font-style:italic; font-family:Georgia Italic;">
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	<!--Main Section-->
-	<div class="container">
-		<!--Navbar-->
-		<nav class="navbar navbar-default navbar-fixed-top" id="navbar-triangle" color = background: rgb(0, 0, 1);>
-			<div class="container-fluid">
-			    <div class="navbar-header">
-			    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span>                        
-			      	</button>
-			      	<div class="navbar-brand" href="#"></div>
-			    </div>
-			    <div class="collapse navbar-collapse" id="myNavbar">
-			    	<ul class="nav navbar-nav navbar-right">
-				        <li><a href="#about">About</a></li>
-				        <li><a href="#education">Education</a></li>
-				        <li><a href="#awards">Awards</a></li>
-				        <li><a href="#work-experience">Work Experience</a></li>
-				        <li><a href="#organizations">Organizations</a></li>
-				        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#news">News</a></li>
-				        <li><a href="#contact">Contact</a></li>
-			      	</ul>
-				</div>
-			</div>
-		</nav>
+    <!-- About -->
+    <div id="about">
+        <div class=" headerstyling container-fluid" style="background-color:#edeeef">
+            <div class="text-center content">
+                <h2 class="margin heading-margin">About Me!</h2>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="images/some.png" class="myImageclass img-class img-rounded"></img>
+                    </div>
+                    <div class="col-sm-5">
+                        <div style="font-size: 18px; font-style:italic; font-family:Georgia Italic;">
+                            <p> I am currently a graduate student at New York University with a background in Computer Science. I am pursuing my major in data science -urban informatics for smart cities. .
+                                <br>
+                                <p>
+                                    <p>Previously I worked with Accenture as a Software Engineer Analyst for 2 years where I contributed to a financial group in developing component and business services using MVC (Java) and testing those services to ensure the functionality. </p>
+                                    <p>My interests lie in machine learning and statistical analysis. I am building my Data science "toolbox" daily, from Hadoop to Statistical Analysis and Machine Learning to Programming. I am always keen on exploring data, further analysis, continuous curiosity and a knack for translating high-tech ideas into new ways to turn a profit. It is my love for mathematics, problem-solving skills, and programming abilities to build software to scrape, which made me contribute to this rare hybrid called Data Science. </p>
+                                    <p>In my free time, you would find me playing badminton or snooker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+            <!-- Work EXP -->
+            <div id="resume" class="row">
+                <div class="col-xs-12 headerstyling text-center">
+                    <h2 class="margin">Resume</h2>
+                    <div class="">
+                        <p>
+                            <br>Find my Resume <a href="newresume.pdf">here!</a>
+                            <br>
+                        </p>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="images/nyu.png" style="height:70px; width:150px float:left"></img>
+                                <h4>Education</h4>
+                                <h5>New York University <br> Masters in Data Science- Urban Informatics<br>(Expected:August 2017)</h5>
+                                <h5>Uttar Pradesh Technical University, India <br> <Bachelor of Computer Engineering <br >(Graduated 2014)</h5>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/accenture.png" style="height:70px; width:150px"></img>
+                                <h4>Work Experience</h4>
+                                <h5>New York University<br>Graduate Research Assistant<br>Nov 2016-Present</h5>
+                                <h5>Accenture<br>Software Engineer Analyst<br>Nov 2014- May 2016</h5>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/course.jpg" style="height:70px; width:150px"></img>
+                                <h4>Favourite Courses</h4>
+                                <h5>Machine Learning <br> Data Structure and Algorithms <br>
+								Artificial Intelligence <br> Applied Data Science <br> Geographical Spatial Analysis</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#resume-->
+            <!-- Project -->
+            <div class="headerstyling text-center" id="projects" style="background-color:#edeeef">
+                <h2 class="margin">Projects</h2>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"> <a href="" data-toggle="modal" data-target="#ADS" class="icon">Safety</a></font>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"><a href="" data-toggle="modal" data-target="#city" class="icon">311 Request</a></font>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"><a href="" data-toggle="modal" data-target="#GIS" class="icon">Vehicle Collision</a></font>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"><a href="" data-toggle="modal" data-target="#btech" class="icon">Pixel Expansion</a></font>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"><a href="" data-toggle="modal" data-target="#gra" class="icon">Census</a></font>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="Project">
+                                    <font face="sans-serif"><a href="" data-toggle="modal" data-target="#USI" class="icon">USI</a></font>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="modal fade" id="ADS" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Perception of Safety in an Urban Environment</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left">
+                                    - The study identified latent and underlying factors that can be related to the “perception of safety”.
+                                    <br> - An intent to analyze and understand these characteristics of neighborhoods that do show an understandable impact on this perception of safety, which are based on data-driven features such as socioeconomic, demographic, and physical characteristics were also observed and studied.
+                                    <br> - Much of the analysis used has been the Ordinary Least Square (OLS) regression technique within Python.
+                                    <br> - A LASSO (Least Absolute Shrinkage and Selection Operator) method of regression has been applied for the absolute features selection from different datasets
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <b>Skills Used:</b> Multivariate Regression, PCA, Lasso, Cross Validation, ArcGIS
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="city" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Analyzed Spatial-temporal patterns of 311 service request activity in NYC.</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left"> - The specific challenge was to analyze the incoming service requests from 2015 –approximately two million in total – and attempt to gain insight on the socioeconomic conditions within New York City.
+                                    <br> - using Python and geo pandas, The Spatial Analysis gave me the idea where the complaints were made and therefore I visualized using ArcGIS what kind of similar complaints has the corresponding neighborhood.
+                                    <br> - In the same way, the temporal analysis yelled results of same complaints at the same time. a time span of one week has been split into 56 bins with one bin corresponding to 3 hour period cell, the formula for which being: 3 hour /times/ 4 summing up to 24 hours /times/ 7 days.
+                                    <br> - Computational approach for the research included Python with pandas package and K-means clustering technique.
+                                    <br>
+                                    <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="GIS" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Vehicle Collisions in NYC, A spatial analysis of injuries and risk aversion</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left">
+                                    - : Vehicle collision data from NYPD was used for doing a spatial analysis to find out internal and external factors of Vehicle collision in NYC.
+                                    <br> - Used python and ArcGIS to identify local indicators of spatial correlation(LISA).
+                                    <br> - Analyzed Safety Score data from MIT, using spatial analysis and incorporated passive vehicle collision traﬃc study for the prototype using spatial analysis packages
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="btech" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Solved the problem of pixel expansion and enhanced security in visual cryptography</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left">-The project implemented an encryption scheme which provided enhanced security with the prevention of unauthorized access of the secret image to be shared using MATLAB.
+                                    <br> -It required extensive work not only in Excel and PowerPoint but also in Symantec DLP and Bay Dynamics Risk Fabric.
+                                    <br>
+                                    <br>
+                                    <b>Skills Used:</b> JAVA, MATLAB, Crytography methods.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="gra" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Research Project at NYU</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left"> -Handling census and demographic databases, Classifying and Completing a catalog of census information for a global sample of 200 cities with the use of ArcGIS Software, analyzing the information of enumeration zones.
+                                    <br> -Analysing access to Public transit, open free space.
+                                    <br>
+                                    <b>Skills Used:</b>ASP.Net,MSSQL,C#.Net</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="USI" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Social Impact Project</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p align="left">
+                                    - The Social Impact Project involved the study of impacts of Second Avenue Subway in the Upper East side, Manhattan, New YOrk.
+                                    <br> - Analysed how ridership has been increased, if people changed their mode of transportation, if real estate got affected due to the new subway line.
+                                    <br> - Used ArcGIS to visualise the accessibility, KS test to analyse the probablity distribution and conclude the result. Used python for analysis.
+                                    <br> - Fourier Analysis (Time Series) to observe the trend and seasonality of riders.
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--skills-->
+        <div class="no-padding-bottom headerstyling bg-4 text-center" id="awards">
+            <h2 class="margin">Awards</h2>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="row project-rows">
+                        <div class="col-sm-3 projectDiv">
+                            <a href="#"><img class="img-class projectImg" src="images/python-logo1.jpg" alt="python image"></a>
+                            <div class="projectDivData projectData1">
+                                <span class="heading-span">2<sup>nd  </sup>in Open Data Maker's Hackathon, New York, USA
+                                    </span>
+                                <div class="normal-span">machine learning application to build a platform: <b>FarmConnect </b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 projectDiv">
+                            <a href="#"><img class=" img-class projectImg" src="images/r-logo1.jpg" alt="python image"></a>
+                            <div class="projectDivData projectData2">
+                                <span class="heading-span">NYU CUSP Scholarship, 2016
+                                    </span>
+                                <div class="normal-span">Merit-based Scholarship
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 projectDiv">
+                            <a href="#"><img class="img-class projectImg" src="images/11.png" alt="python image"></a>
+                            <div class="projectDivData projectData3">
+                                <span class="heading-span">Topper, 2014
+                                    </span>
+                                <div class="normal-span">99 percentile in CS and Mathematics
+                                </div>
+                            </div>
+                        </div>
 
-	</div>
-
-</div>
-
-<h1> Priyanshi Singh </h1>
+                    </div>
+        
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+			            <div id="skills" class="row">
+                <div class="no-padding-bottom col-xs-12 headerstyling text-center" style="background-color:#edeeef">
+                    <h2 class="margin">Skills</h2>
+                    <div class="">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="images/machine.jpg" style="height:70px; width:150px float:left"></img>
+                                <h4>Image Classification and modelling</h4>
+                               
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/python.png" style="height:70px; width:150px"></img>
+                                <h4>Regression, Models, Prediction</h4>
+                                
+                                
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/gis.gif" style="height:70px; width:150px"></img>
+                                <h4>Visualising maps for Analysis</h4>
+                                
+							
+                            </div>
+							<div class="col-sm-4">
+                                <img src="images/stats.jpg" style="height:70px; width:150px"></img>
+                                <h4>Proving everything with Data, even the truth !</h4>
+                               
+                            </div>
+							<div class="col-sm-4">
+                                <img src="images/d3js-logo1.jpg" style="height:70px; width:150px"></img>
+                                <h4>D3.js</h4>
+                                
+                            </div>
+							<div class="col-sm-4">
+                                <img src="images/tab.png" style="height:70px; width:150px"></img>
+                                <h4>Best Representation of Data</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer text-center">
+        <a href="https://www.instagram.com/priyanshi09/" target="_blank"><span class="social-instagram glyphicon"></span></a>
+        <a href="https://www.linkedin.com/in/priyanshi-singh-002007133/" target="_blank"><span class="social-linkedin glyphicon"></span></a>
+        <a href="https://github.com/priyanshi09" target="_blank"><span class="social-github glyphicon"></span></a>
+        <a href="mailto:ps3369@nyu.edu" target="_blank"><span class="social-email glyphicon"></span></a>
+        <p class="normal-span">&copy;Copyright 2017,Priyanshi Singh</p>
+    </div>
+    <!-- Footer End  -->
 </body>
+
 </html>
