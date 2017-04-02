@@ -284,14 +284,14 @@ a:hover {
 }
 
 .img-class {
-    width: 55%;
+    width: 60%;
 }
 
 .myImageclass1{
         margin-top: -18rem;
         margin-bottom: 16rem;
         margin-left: 6rem;
-		border-radius: 40%;
+		border-radius: 50%;
     }
 
 .text-center {
@@ -457,7 +457,7 @@ a:hover {
     content: url("../images/new-email-logo.png");
 }
 .name-styling{
-    font-family: inherit;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 1.1;
     color: rgba(255, 106, 0, 0.81) ;
